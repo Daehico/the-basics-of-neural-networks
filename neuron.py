@@ -20,12 +20,12 @@ class Neuron:
         return sum
 
 
-bias = 27
-array1 = [1, 2, 4, 5]
-array2 = [3, 6, 7, 8]
-
-n = Neuron(array1, array2)
-s = n.y() - bias
-y = n.onStep(s)
-print("S = ", s)
-print("Y = ", y)
+# bias = 27
+# array1 = [1, 2, 4, 5]
+# array2 = [3, 6, 7, 8]
+#
+# n = Neuron(array1, array2)
+# s = n.y() - bias
+# y = n.onStep(s)
+# print("S = ", s)
+# print("Y = ", y)
